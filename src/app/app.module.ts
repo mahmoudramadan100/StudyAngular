@@ -14,6 +14,8 @@ import { StyleBindingComponent } from './style-binding/style-binding.component';
 import { TwoWaysBindingComponent } from './two-ways-binding/two-ways-binding.component';
 import { FormsModule } from '@angular/forms';
 import { NgIfStructureComponentComponent } from './structure directive/ng-if-structure-component/ng-if-structure-component.component';
+import { ChildComponent } from './component interaction/child/child.component';
+import { ParentComponent } from './component interaction/parent/parent.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { NgIfStructureComponentComponent } from './structure directive/ng-if-str
     ClassBindingComponent,
     StyleBindingComponent,
     TwoWaysBindingComponent,
-    NgIfStructureComponentComponent
+    NgIfStructureComponentComponent,
+    ChildComponent,
+    ParentComponent
   ],
   imports: [
     BrowserModule,
