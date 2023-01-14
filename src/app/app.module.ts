@@ -13,6 +13,7 @@ import { ClassBindingComponent } from './class-binding/class-binding.component';
 import { StyleBindingComponent } from './style-binding/style-binding.component';
 import { TwoWaysBindingComponent } from './two-ways-binding/two-ways-binding.component';
 import { FormsModule } from '@angular/forms';
+import { NgIfStructureComponentComponent } from './structure directive/ng-if-structure-component/ng-if-structure-component.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FormsModule } from '@angular/forms';
     PropertyBindingComponent,
     ClassBindingComponent,
     StyleBindingComponent,
-    TwoWaysBindingComponent
+    TwoWaysBindingComponent,
+    NgIfStructureComponentComponent
   ],
   imports: [
     BrowserModule,

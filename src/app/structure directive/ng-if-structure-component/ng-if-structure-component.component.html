@@ -1,0 +1,13 @@
+
+
+<h2 *ngIf="isLoggin; then userNam else user"></h2>
+
+
+
+<ng-template #user>
+    <h1> Welcome Guest </h1>
+</ng-template>
+
+<ng-template #userNam>
+    <h2> Welcome {{userName}}</h2>
+</ng-template>
